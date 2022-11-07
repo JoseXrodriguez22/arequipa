@@ -1,0 +1,321 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    width: 70%;
+    margin: 0 auto;
+}
+
+/* ----------
+* hero
+-------------- */
+header {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo {
+    width: 130px;
+}
+
+header .title {
+    width: 80%;
+    height: 100px;
+}
+
+/* ----------
+* nav
+-------------- */
+ul li {
+    list-style: none;
+}
+
+ul li a {
+    text-decoration: none;
+    color: inherit;
+}
+
+nav {
+    background-color: gainsboro;
+    border: 1px solid #000;
+    margin-top: 40px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav ul li {
+    padding: 10px;
+}
+
+nav ul li:hover {
+    background-color: green;
+    color: #fff;
+}
+
+/* ----------
+* BANNER
+-------------- */
+.banner {
+    width: 100%;
+    height: 540px;
+    padding-top: 20px;
+}
+
+.banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* ----------
+* HISTORY
+-------------- */
+.section-history {
+    display: flex;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.history-info {
+    width: 50%;
+}
+
+.history-picture {
+    width: 50%;
+    height: 320px;
+    overflow: hidden;
+}
+
+.title-section h2 {
+    background: linear-gradient(rgba(62, 3, 129, 0.644), rgb(195, 178, 219));
+    color: green;
+    padding: 12px;
+    width: 24%;
+    margin-top: 30px;
+}
+
+.history-info p {
+    width: 90%;
+    background-color: rgb(101, 238, 238);
+    margin-top: 20px;
+    padding: 15px;
+}
+
+.history-picture img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* ----------
+* DANCE
+-------------- */
+.dance {
+    padding-top: 40px;
+}
+
+.section-dance--tip {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-top: 20px;
+}
+
+.item {
+    width: 480px;
+    height: 340px;
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+.item-comida {
+    width: 300px;
+    height: 340px;
+}
+
+.item figure {
+    width: 100%;
+    height: 80%;
+    overflow: hidden;
+}
+
+.item figure img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.item .subtitle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 15px;
+}
+
+
+.subtitle p {
+    background: linear-gradient(green, rgb(235, 253, 131));
+    color: red;
+    padding: 10px;
+}
+
+/* ----------
+* COMIDA
+-------------- */
+.subtitle-comida p {
+    background: linear-gradient(rgb(240, 159, 9), rgb(237, 240, 58));
+}
+
+.video {
+    display: flex;
+    column-gap: 3rem;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.video iframe {
+    width: 40%;
+    height: 300px;
+}
+
+/* ----------
+* LUGARES TURISTICOS
+-------------- */
+.subtitle-lugares p {
+    background: linear-gradient(rgb(240, 159, 9), rgb(237, 240, 58));
+    color: rgb(60, 16, 163);
+}
+
+.video-1 iframe,
+.video-2 iframe {
+    width: 100%;
+}
+
+.subtitle-video {
+    text-align: center;
+    font-size: 25px;
+}
+
+/* ----------
+* COMO LLEGAR
+-------------- */
+.section-search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+/* ----------
+* HISTORY
+-------------- */
+.section-description--project {
+    margin-top: 1rem;
+}
+
+.title-description--project {
+    width: 100%;
+    height: 200px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgb(117, 197, 218);
+}
+
+.title-description--project h1 {
+    color: red;
+    font-size: 25px;
+    margin-bottom: 1rem;
+}
+
+/* ----------
+* INTEGRANTES
+------------- */
+.integrantes {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.title-integrantes h2 {
+    width: 90%;
+}
+
+.integrantes h3 {
+    color: blue;
+    background-color: rgb(255, 187, 0);
+    padding: 10px;
+    margin-top: 10px;
+}
+
+
+.banner-footer {
+    height: 220px;
+}
+
+/* ----------
+* CONTACT
+------------- */
+.contact {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 2rem;
+    margin-top: 30px;
+}
+
+.contact .number h4 {
+    color: red;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.contact .number span {
+    color: blue;
+    font-size: 25px;
+}
+
+.icons-social img {
+    width: 300px;
+}
+
+.reclamaciones {
+    font-weight: 600;
+    text-align: center;
+}
+
+/* ----------
+* FOOTER
+------------- */
+footer {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+footer .correo a {
+    font-size: 20px;
+}
+
+.stars img {
+    width: 140px;
+}
